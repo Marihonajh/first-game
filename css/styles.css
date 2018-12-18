@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+  color: steelblue;
+  background-image: url("https://media.istockphoto.com/photos/play-figures-picture-id187195721");
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 3px #000;
+}
+
+container {
+  box-shadow: 0 0 3px rgba(78, 170, 90, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  padding: 00px;
+  border-radius: 20px;
+  margin: 0 30px;
+  padding: 0;
+  color: #004e92;
+  text-align: center;
+  background: rgba(0, 0, 0, .8);
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, .5);
+
+}
+
+.box .styling input {
+  color: #004e92;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #004e92;
+  outline: none;
+  background: transparent;
+}
+
+#tose {
+  padding: 15px;
+  font-size: px;
+}
+
+.players {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.column {
+  margin: 30px auto;
+  box-shadow: 2px 2px 3px rgba(24, 231, 109, 0.1);
+  width: 33.33%;
+  height: 400px;
+  float: left;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#tose {
+  font-size: 50px;
+  font-weight: 350;
+}
+
+.runningScores {
+  font-size: 100px;
+  font-weight: 100;
+}
+
+.totalScores {
+  font-size: 30px;
+}
+
+.finalScores {
+  margin-top: 4em;
+  font-size: 18px;
+}
+
+#tose, #hold {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+#ludo {
+  margin-top: 30px;
+}
+
+.totalScore {
+  background-color: #48181b;
+  color: darkbl;
+  width: 50%;
+  height: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: x-large;
+  font-family: 'lota';
+  transform: none;
+}
+.column{
+  display: none;
+}
