@@ -8,12 +8,10 @@ body {
 container {
   box-shadow: 0 0 3px rgba(78, 170, 90, 0.1);
 }
-
 h1, h2 {
   text-align: center;
   font-style: italic;
 }
-
 .box {
   position: absolute;
   top: 50%;
