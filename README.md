@@ -28,6 +28,8 @@ for clarification or question find me through my social media  accounts;
 * mayj Mackenzie (Facebook)
 * marihonjahmackenzie@gmail.com (E-mail)
 * may j Mackenzie (Instagram)
+# live site
+https://marihonajh.github.io/first-game/
 
 # Specification
 Behavior	Input	Outcome

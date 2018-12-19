@@ -4,14 +4,15 @@ var playerTwo = "";
 var throwDice = funtion() {
   return.Math.floor((Math.random() * 6) + 1);
 }
+https: //github.com/Marihonajh/first-game
 
-function(turn) {
-  this.tose = 0;
-  this.curScore = 0;
-  this.totalScores = 0;
-  this.turn = turn;
-  this.playerName;
-}
+  function(turn) {
+    this.tose = 0;
+    this.curScore = 0;
+    this.totalScores = 0;
+    this.turn = turn;
+    this.playerName;
+  }
 
 Player.prototype.rollOne = function() {
   if (this.tose === 1) {
