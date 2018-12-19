@@ -36,7 +36,7 @@ h1, h2 {
   background: transparent;
 }
 
-#tose {
+#tose {gameSection
   padding: 15px;
   font-size: px;
 }
@@ -46,8 +46,11 @@ h1, h2 {
   text-transform: uppercase;
   font-weight: 300;
 }
+#gameSection{
+  /* display: none; */
+}
 
-.column {
+.gameSection {
   margin: 30px auto;
   box-shadow: 2px 2px 3px rgba(24, 231, 109, 0.1);
   width: 33.33%;
@@ -62,7 +65,7 @@ h1, h2 {
   font-weight: 350;
 }
 
-.runningScores {
+.currentScores {
   font-size: 100px;
   font-weight: 100;
 }
@@ -81,7 +84,7 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-#ludo {
+#gameSection {
   margin-top: 30px;
 }
 
@@ -98,7 +101,4 @@ p {
   font-size: x-large;
   font-family: 'lota';
   transform: none;
-}
-.column{
-  display: none;
 }

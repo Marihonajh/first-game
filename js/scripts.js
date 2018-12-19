@@ -1,11 +1,11 @@
 var playerOne = "";
 var playerTwo = "";
 
-var throwDice = function() {
-  return Math.floor(6 * Math.random()) + 1;
+var throwDice = funtion() {
+  return.Math.floor((Math.random() * 6) + 1);
 }
 
-function Player(turn) {
+function(turn) {
   this.tose = 0;
   this.curScore = 0;
   this.totalScores = 0;
@@ -44,6 +44,7 @@ $(document).ready(function() {
 
     var player1Name = $(".player1Name").val();
     $("#player1Name").text(player1Name);
+
     var player2Name = $(".player2Name").val();
     $("#player2Name").text(player2Name);
 
@@ -79,4 +80,4 @@ $(document).ready(function() {
     $("#roll-2").empty();
     playerTwo.winnerCheck();
   });
-});
+})
