@@ -1,11 +1,11 @@
 var playerOne = "";
 var playerTwo = "";
 
-var throwDice = funtion() {
-  return.Math.floor((Math.random() * 6) + 1);
+var throwDice = function() {
+  return Math.floor(6 * Math.random()) + 1;
 }
 
-function(turn) {
+function Player(turn) {
   this.tose = 0;
   this.curScore = 0;
   this.totalScores = 0;
@@ -44,7 +44,6 @@ $(document).ready(function() {
 
     var player1Name = $(".player1Name").val();
     $("#player1Name").text(player1Name);
-
     var player2Name = $(".player2Name").val();
     $("#player2Name").text(player2Name);
 
@@ -54,8 +53,30 @@ $(document).ready(function() {
 
   $("button#tose-1").click(function(event) {
     playerOne.tose = throwDice();
-    $("#player1Name").text(playerOne.tose);
+    $("#roll-1").text(playerOne.tose);
     playerOne.rollOne();
-    $("#currentScore").text(playerOne.curScore);
+    $("#currentScore-1").text(playerOne.curScore);
   });
-})
+
+  $("button#tose-2").click(function(event) {
+    playerTwo.tose = throwDice();
+    $("#roll-2").text(playerTwo.tose);
+    playerTwo.rollOne();
+    $("#currentScore-2").text(playerTwo.curScore);
+  });
+
+  $("button#hold-1").click(function(event) {
+    playerOne.hold();
+    $("#totalScores-1").text(playerOne.totalScores);
+    $("#currentScore-1").empty();
+    $("#roll-1").empty();
+    playerOne.winnerCheck();
+  });
+  $("button#hold-2").click(function(event) {
+    playerTwo.hold();
+    $("#totalScores-2").text(playerTwo.totalScores);
+    $("#currentScore-2").empty();
+    $("#roll-2").empty();
+    playerTwo.winnerCheck();
+  });
+});
